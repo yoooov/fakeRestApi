@@ -1,0 +1,388 @@
+{
+    "response": {
+        "version": "3.21",
+        "format": "json",
+        "status": "200",
+        "lang": "en",
+        "notification": "Planned server migration on Sat, 2020-06-13 from 09:00 a.m. to 12:00 p.m. GMT+1",
+        "items": 15,
+        "consumption": 1,
+        "remaining": 27,
+        "querylimit": 40,
+        "querylimitmax": 40,
+        "timestamp": "1591894584",
+        "rtt": 4,
+        "etag": "386424b15ac9b121-d8ac8086a5e49b35-dcca48101505dd86"
+    },
+    "request": {
+        "timestamp": "1591894580",
+        "apikey": "valid",
+        "userid": "11693",
+        "details": 0,
+        "sort": "entry_timestamp_create",
+        "type": "search",
+        "value": "heartbleed"
+    },
+    "result": [
+        {
+            "entry": {
+                "id": "34061",
+                "title": "WinSCP 5.5\/5.5.1\/5.5.2 X.509 Certificate CN spoofing",
+                "timestamp": {
+                    "create": "1426195298",
+                    "change": "1495762974"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1397606400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-2735"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "67685",
+                "title": "GNU Bash up to 3.2.48 Environment Variable variables.c privilege escalation",
+                "timestamp": {
+                    "create": "1411593255",
+                    "change": "1539168525"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "3",
+                    "name": "high"
+                }
+            },
+            "advisory": {
+                "date": "1411516800"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-6271"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13457",
+                "title": "OpenSSL 0.9.8\/1.0.0\/1.0.1 ECDH ssl3_read_bytes denial of service",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1556871984"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-3470"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13456",
+                "title": "OpenSSL 1.0.0\/1.0.1 SSL Mode Release Buffers ssl3_read_bytes denial of service",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1498888124"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2010-5298"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13455",
+                "title": "OpenSSL up to 1.0.1g SSL Mode Release Buffers NULL Pointer Dereference denial of service",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1498889149"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0198"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13454",
+                "title": "OpenSSL 0.9.8\/1.0.0\/1.0.1 DTLS Fragment ssl\/d1_both.c memory corruption",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1556871333"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0195"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13453",
+                "title": "OpenSSL 0.9.8\/1.0.0\/1.0.1 DTLS Handshake denial of service",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1556873029"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0221"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13452",
+                "title": "OpenSSL 0.9.8\/1.0.0\/1.0.1 Handshake weak encryption",
+                "timestamp": {
+                    "create": "1401976101",
+                    "change": "1487154542"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1401926400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0224"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13449",
+                "title": "Ipswitch IMail up to 12.4.1.14 Task cross site scripting",
+                "timestamp": {
+                    "create": "1401971064",
+                    "change": "1496383605"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401753600"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-3878"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13448",
+                "title": "Ipswitch IMail 12.3\/12.4 Calendar cross site scripting",
+                "timestamp": {
+                    "create": "1401971064",
+                    "change": "1526540515"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401753600"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-3878"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13447",
+                "title": "Ipswitch IMail up to 12.4.1.14 Group Details cross site scripting",
+                "timestamp": {
+                    "create": "1401971064",
+                    "change": "1554228737"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401753600"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-3878"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13446",
+                "title": "Ipswitch IMail up to 12.4.1.14 Contact Details cross site scripting",
+                "timestamp": {
+                    "create": "1401971064",
+                    "change": "1554228946"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1401753600"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-3878"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13248",
+                "title": "IBM WebSphere Application Server up to 6.1.0.47\/6.0.2.43 TLS denial of service",
+                "timestamp": {
+                    "create": "1400403667",
+                    "change": "1495931820"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1399420800"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0964"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "13072",
+                "title": "HP Integrated Lights-Out up to 2.24 SSL Heartbleed Check denial of service",
+                "timestamp": {
+                    "create": "1398437849",
+                    "change": "1496040682"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1398211200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-2601"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "12819",
+                "title": "OpenSSL up to 1.0.2 TLS\/DTLS Heartbeat ssl\/t1_lib.c dtls1_process_heartbeat\/dtls1_process_heartbeat information disclosure",
+                "timestamp": {
+                    "create": "1396961988",
+                    "change": "1516878090"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "3",
+                    "name": "high"
+                }
+            },
+            "advisory": {
+                "date": "1396828800"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2014-0160"
+                }
+            }
+        }
+    ]
+}
